@@ -14,6 +14,36 @@ exports[`test list component should match snapshot 1`] = `
   <div
     className="List-cards"
   >
+    <div
+      className="Card"
+    >
+      <button
+        type="button"
+      >
+        delete
+      </button>
+      <h3>
+        title 1
+      </h3>
+      <p>
+        content 1
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <button
+        type="button"
+      >
+        delete
+      </button>
+      <h3>
+        title 2
+      </h3>
+      <p>
+        content 2
+      </p>
+    </div>
     <button
       className="List-add-button"
       type="button"
